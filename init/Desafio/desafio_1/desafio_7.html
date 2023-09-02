@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+        const array = [1,2,3,"100",1200,300, "Olá, Mundo!", 5,7];
+
+        // console.log(typeof array)
+        
+        // for(let i = 0; i<array.length; i++){
+        //     if(typeof array == Number){
+        //         let soma = array.Number
+
+
+        //     }
+
+
+        //     }
+
+        // for(let i = 0; i<array.length; i++){
+        //     if(typeof array == String){
+        //         array.shift();
+        //     }
+        // }
+        
+        let soma = 0
+        for(let i = 0; i<array.length; i++){
+            const elements = array[i];
+
+            if(typeof elements === "number"){
+                soma = elements + soma
+            }
+
+                
+
+            console.log(soma)
+        }
+    </script>
+
+</body>
+</html>
