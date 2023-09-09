@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+
+        function name(parm){
+            // ..
+        }
+
+        console.log(name)
+
+        console.log(typeof name)
+
+        // primeira função
+        function soma(a, b){
+            console.log(a, b)
+            return a + b
+        }
+
+        let x = 20
+        let y = 30
+
+        const resultado = soma(x, y)
+
+        console.log(resultado)
+
+        // função utilizando const/let
+
+        const letrasmaiusculas = function(texto){
+            const converte = texto.toUpperCase()
+
+            return converte
+        }
+
+        console.log(letrasmaiusculas("guimas"))
+
+        // Arrow function
+
+        const letrasminusculas = (texto) => {
+            const converte = texto.toLowerCase()
+            return converte
+        }
+        console.log(letrasminusculas("JONH"))
+
+        // arrow function simplificado
+        const quantidadedeletras = (texto) => texto.length
+
+        console.log(quantidadedeletras("Mais um teste")) 
+
+        // exemplo
+        function nomeEmpresaFuncionario(empresa, funcionarios){
+            for (let i = 0; i< funcionarios.length; i++){
+                const funcionario = funcionarios[i];
+                console.log(empresa, funcionarios)
+            }
+        }
+
+        nomeEmpresaFuncionario("Youtube", ["gui", "jonh", "gisele", "leo"])
+
+
+        // exemplo 2
+        function limpaPratos(pia){
+            if (pia.length === 0){
+                return ("Pia Limpa!");
+            }
+
+            console.log(`Louça Limpa: ${pia.pop()}`)
+            
+
+            const novaLouca = pia
+            
+            return limpaPratos(novaLouca);
+        }
+
+        const loucas = ["prato 1", "p2", "p3", "p4"]
+
+        const resultado_ex2 = limpaPratos(loucas)
+        console.log(resultado_ex2)
+    </script>
+</body>
+</html>

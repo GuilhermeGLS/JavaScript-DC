@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+
+
+    <script>
+        let ate = (Math.random() * 100)
+
+        const RANDOM = Math.floor(ate) + 1;
+
+        console.log(RANDOM)
+
+        let contador = 0
+
+        function adivinhar(numero) {
+            contador++
+
+            while (numero !== RANDOM) {
+
+                if (numero < RANDOM) {
+                    return "Você Errou, o numero é maior"
+                }
+                else if (numero > RANDOM) {
+                    return "Você Errou, o numero é menor"
+                }
+                else{
+                    return `Parabéns você acertou em ${contador} vezes`
+                    
+                }
+                
+            }
+
+                     
+        }
+    </script>
+</body>
+
+</html>
