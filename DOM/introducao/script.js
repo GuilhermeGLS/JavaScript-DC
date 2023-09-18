@@ -1,8 +1,8 @@
 // pegando o HTML
 const HTML = document.firstElementChild;
 
-// Pegando o Heade
-const HEADE = HTML.firstElementChild
+// Pegando o Head
+const HEAD = HTML.firstElementChild
 
 // Pegando o Body
 const BODY = HTML.lastElementChild
