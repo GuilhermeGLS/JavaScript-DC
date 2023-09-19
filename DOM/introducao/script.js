@@ -27,5 +27,11 @@ IMAGEM.style.width = "20em"
 
 const FOOTER = document.getElementById('FOOTER')
 
-FOOTER.style.display = "block"
+function esconder(){
+    FOOTER.style.display = "none"
+}
+
+function mostrar(){
+    FOOTER.style.display = "block"
+}
 

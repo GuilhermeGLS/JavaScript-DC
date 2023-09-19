@@ -1,0 +1,13 @@
+div.btn{
+    display: grid;
+    grid-template-columns: 10% 10%;
+    margin-top: 1rem;
+
+    
+   
+}
+
+/* div>input{
+    width: 10rem;
+    height: 2rem;
+} */
