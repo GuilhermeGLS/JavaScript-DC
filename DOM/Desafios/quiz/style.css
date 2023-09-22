@@ -1,0 +1,15 @@
+main{
+    display: grid;
+    grid-template-areas: 
+    "input input"
+    "input input";
+    row-gap: 2em;
+    margin-left: 10%;
+}
+input{
+    width: 50%;
+    height: 3rem;
+    background-color: brown;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.537);
+}
