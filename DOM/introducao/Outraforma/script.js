@@ -6,6 +6,7 @@ function clicar(){
 
     if (footer.className === "hidden"){
         footer.className = "show"
+        btn.innerHTML = "Esconder footer"
     }else{
         footer.className = "hidden"
         btn.innerHTML = "Mostrar footer"
