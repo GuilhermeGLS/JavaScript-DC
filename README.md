@@ -13,3 +13,6 @@ Aprendizado de JavaScript
 > Inicialmente baixada a extensão [HTML tree Generator](https://chrome.google.com/webstore/detail/html-tree-generator/dlbbmhhaadfnbbdnjalilhdakfmiffeg)
 > Com ela é possível ter um entendimento melhor do DOM.
 > Da forma mais básica até a mais utilizada de se manipular 
+---
+- Desafios
+> desafios de formas gerais não necessariamentes apenas da Digital College
