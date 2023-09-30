@@ -16,3 +16,4 @@ Aprendizado de JavaScript
 ---
 - Desafios
 > desafios de formas gerais não necessariamentes apenas da Digital College
+> Mais desafios no repositório [Desafio-DOM](https://github.com/GuilhermeGLS/Desafio_DOM/tree/main/Guilherme_Lima)
