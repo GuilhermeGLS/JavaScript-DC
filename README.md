@@ -3,8 +3,11 @@
 Aprendizado de JavaScript
 
 ## init
-- parte basica do JS, aprendendo a criar variaveis, loops, ifs, functios, parametros e sinais algebricos, de comparação e concatenações
-- possuindo também desafios feitos em sala e em fora de sala
+- Parte basica do JS, aprendendo a criar variaveis, loops, if's, functions, parametros e sinais algebricos, de comparação e concatenações
+- Estruturas Condicionais
+- Estruturas de Controle
+- Exemplos de Validação
+- Possuindo também desafios feitos em sala e em fora de sala
 ---
 ## DOM
 - Aprendendo a manipular o DOM com o JavaScript
